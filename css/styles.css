@@ -524,6 +524,8 @@ img {
 }
 .footer-section-li:not(:last-child) {
   margin-bottom: 9px;
+}
+.addres--footer-margin {
   margin-top: 20px;
 }
 .footer-li-addres-section {
@@ -762,8 +764,7 @@ img {
 
 .modal {
   position: absolute;
-  width: 528px;
-  height: 581px;
+  padding: 40px;
   top: 50%;
   left: 50%;
   background-color: var(--main-batton-address-color);
@@ -809,7 +810,7 @@ img {
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
-  margin-top: 40px;
+
   margin-bottom: 12px;
   color: var(--portfolio-main-color);
 }
@@ -817,15 +818,11 @@ img {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 40px;
 }
 .form {
-  margin-left: 41px;
-  margin-right: 39px;
 }
 .form-field {
   position: relative;
-  margin-bottom: 10px;
 }
 .input-text {
   display: block;
@@ -934,8 +931,7 @@ img {
 .footer-con-item:last-child {
   margin-left: auto;
 }
-.footer-form {
-}
+
 .input-footer {
   height: 50px;
   min-width: 358px;
@@ -949,6 +945,8 @@ img {
   background-color: inherit;
   border: 1px solid rgba(255, 255, 255, 0.3);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .input-footer:hover,
 .inpet-footer:focus {
